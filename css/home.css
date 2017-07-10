@@ -1,0 +1,372 @@
+html {
+    color: #000;
+    background: #333;
+    font-family: monospace;
+}
+body{
+    background: #333;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+#doc, #doc2, #doc3, #doc4 {
+    margin: auto;
+    width: 80%;
+
+    padding-bottom: 5em;
+    padding-top: 3em;
+}
+fieldset,
+img {
+    border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+    font-family: monospace;
+}
+h4 {
+    font-size: 16;
+    font-family: monospace;
+    color: #ccc;
+    text-align: center;
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: 0em;
+}
+table {
+    font-size: inherit;
+    font: 100%;
+    border-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+pre,
+code,
+kbd,
+samp,
+tt {
+    font-family: monospace;
+    *font-size: 108%;
+    line-height: 100%;
+}
+#logo {
+    background: url('/image/fp/logo.png') top left no-repeat;
+    font-size: 1px;
+    line-height: 0;
+    height: 120px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 300px;
+}
+#logo h1 {
+    margin-left: -200px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#logo h1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-right: 150px;
+}
+#logo h2 {
+    margin-left: -200px;
+}
+.box-outer {
+    border: 1px solid;
+    zoom: 100%;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+}
+.boxcontent {
+    padding: .5em;
+    padding-top: .25em;
+    padding-bottom: 0;
+    line-height: 130%;
+}
+
+.upper-bar {
+    top: 0 !important;
+    position: fixed !important;
+    border-bottom: 1px solid #999 !important;
+    background: #1e1e1e !important;
+    color: #999 !important;
+    width: 100% !important;
+    z-index: 1;
+    padding: .5em;
+}
+
+input[type="submit"] {
+    background: #333333;
+    border: #888888 1px solid;
+    color: #CCCCCC;
+    padding: 2;
+}
+input.btn:hover {
+    color: rgb(50,221,114);
+}
+
+input.searchbox {
+    background: #555555;
+    border: 1px solid #cccccc;
+    padding: 2;
+    color: #cccccc;
+    font-family: monospace;
+    width: 60%;
+}
+
+form.search {
+    text-align: right;
+    float: right;
+    padding-right: 2em;
+}
+
+.bottom-bar {
+    bottom: 0 !important;
+    position: fixed !important;
+    border-top: 1px solid #999 !important;
+    background: #1e1e1e !important;
+    color: #999 !important;
+    width: 100% !important;
+}
+form {
+    display: inline !important;
+}
+.boxbar {
+    line-height: 2em;
+    position: relative;
+    zoom: 100%;
+    background: rgba(50,221,114,0.3);
+    color: #fff;
+}
+.closebutton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: .25em;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+#wot-cnt {
+    min-height: 91px;
+}
+.boxcontent,
+#whatis {
+    font-size: 12;
+    font-family: monospace;
+    color: #ccc;
+}
+#ft {
+    text-align: center;
+    clear: both;
+    font-size: 12;
+    font-family: monospace;
+    color: rgba(50,221,114,0.3);
+
+}
+#ft ul {
+    font-family: monospace;
+    font-size: 12;
+    border-top: 1px solid;
+    display: table;
+    margin: auto;
+    padding: 1px;
+    width: 750px;
+    text-align: center;
+    padding-left: 136px;
+}
+#ft li {
+    background: rgba(0,0,0,0.3);
+}
+a{
+    color: #ccc;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(50,221,114);
+}
+input:hover {
+    color: rgb(50,221,114);
+}
+li {
+    list-style: none;
+}
+#ft li.fill {
+    border: 0;
+    width: 68px;
+}
+#ft li.element {
+    display: block;
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 5px;
+    border-left: none;
+    margin-top: -1px;
+    padding-top: 5px;
+}
+h1 {
+    font-family: Tahoma, Bitstream Vera Sans;
+    font-size: 197%;
+    font-weight: bold;
+}
+h2 {
+    padding-left: .5em;
+    font-size: 131%;
+    font-weight: bold;
+}
+h3 {
+    font-size: 100%;
+    font-weight: bold;
+}
+#announce .boxcontent {
+    line-height: 1.5em;
+}
+#announce em {
+    font-style: italic;
+}
+table.postForm {
+    width: 44%;
+    color: #ccc;
+    margin:auto;
+}
+table.postForm > tbody > tr > td:first-child {
+    background-color: rgba(0,0,0,.3);
+    color: #ccc;
+    border: 0;
+    width:15% !important;
+    padding: 0 5px;
+}
+input[name="name"], input[name="email"], textarea[name="com"] {
+    width: 90% !important;
+}
+input[type="text"], input[type="password"], textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+input[type=text], input[type=password], table.postForm>tbody textarea, #recaptcha_response_field {
+    margin: 0px;
+    margin-right: 2px;
+    padding: 2px 4px 3px 4px;
+    outline: none;
+    font-size: 10pt;
+    background: rgb(40,40,40);
+    border: 1px;
+    color: #ccc;
+}
+input[name="sub"] {
+    width: 70% !important;
+}
+input:not([type="checkbox"]):not([type='radio']), input:not([type='radio']) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: rgb(40, 40, 40) !important;
+    color: rgb(205, 205, 205) !important;
+    outline: none !important;
+    border-width: 0 !important;
+    font-family:monospace;
+}
+#announce strong {
+    font-weight: bold;
+}
+.post.reply {
+    overflow: hidden !important;
+    display: inline-block !important;
+    background-color: rgba(0,0,0,.3) !important;
+    border: 0 !important;
+    padding: .5em;
+    color: #ccc;
+    outline: 0 !important;
+}
+span.name {
+    color: rgb(50,221,114);
+}
+blockquote.postMessage {
+    padding: 1.5em;
+}
+h1 a {
+    color: #800;
+    text-decoration: none;
+}
+.box{
+    background: rgba(0,0,0,0.3);
+}
+.col.col-12 {
+    float: none;
+    width: 360px;
+    margin:0 auto;
+}
+div#hd{
+    padding-bottom: .5em;
+    padding-top: 4.5em;
+
+}
+#announce {
+    background: rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0);
+}
+div.thread {
+    color: #ccc;
+    width: 180px;
+    background: rgba(0,0,0,.3);
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+div#boards {
+    background: rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0);
+    text-align: left;
+}
+div#brd {
+    column-count: 3;
+}
+.top-box {
+    background: #fff;
+}

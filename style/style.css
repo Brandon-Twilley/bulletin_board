@@ -1,0 +1,13 @@
+div#header {
+    color:ghostwhite;
+    background: #00a7d0;
+    padding: 3em;
+    float: left;
+}
+
+div#welcome {
+    float:left;
+    background: #0f0f0f;
+    color:ghostwhite;
+    padding: 5em;
+}
